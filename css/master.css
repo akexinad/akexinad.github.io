@@ -13,35 +13,59 @@ font-family: 'Source Code Pro', monospace;
   margin: 0 auto;
 }
 
-h1 {
-  text-align: center;
-  font-size: 4em;
-}
-
 nav {
-  max-width: 1024px;
+  background-color: #16161d;
   margin: 0 auto;
-  display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
   text-align: center;
-  padding-top: 2em;
+  padding: 3em 0;
 }
 
 a {
+  font-family: 'Overpass', sans-serif;
+  margin: 0 1em;
   text-decoration: none;
   font-size: 1em;
-  color: #16161d;
-  border: 2px solid #16161d;
+  color: white;
+  border: 2px solid white;
   padding: 0.8em 1em;
 }
 
-.section-container {
-  background-color: #001f7d;
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 2em;
 }
 
-.text-container {
-  background-color: #001f7d;
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 3em;
+  margin: 1em auto 2em auto;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin: 1em auto;
+}
+
+main {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
   max-width: 960px;
-  margin: 0 auto;
+  text-align: center;
+  margin: 8em auto;
+}
+
+ .main-link {
+   font-family: 'Overpass', sans-serif;
+   color: blue;
+ }
+
+.section-container {
+  background-color: #001f7d;
 }
