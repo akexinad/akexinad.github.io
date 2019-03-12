@@ -9,11 +9,27 @@ font-family: 'Source Code Pro', monospace;
 * {
   font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
-  background-color: blanchedalmond;
-  max-width: 960px;
+  background-color: #eeeded;
   margin: 0 auto;
 }
 
 h1 {
   text-align: center;
+  font-size: 4em;
+}
+
+nav {
+  min-height: 4em;
+  text-align: center;
+  background-color: #16161d;
+}
+
+a {
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0 1em;
+}
+
+.container {
+  max-width: 960px;
 }
