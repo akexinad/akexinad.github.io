@@ -63,11 +63,49 @@ main {
   margin: 8em auto;
 }
 
- .main-link {
-   font-family: 'Overpass', sans-serif;
-   color: blue;
- }
-
-.section-container {
-  background-color: #001f7d;
+.main-link {
+ font-family: 'Overpass', sans-serif;
+ color: blue;
 }
+
+.colour-container {
+  background-color: #16161d;
+  padding: 1em 30%;
+
+}
+
+.skill-title {
+  background-color: #16161d;
+  color: white;
+}
+
+.text-box {
+  background-color: #16161d;
+  max-width: 960px;
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  padding: 1em 0;
+}
+
+.stack-title {
+  background-color: #16161d;
+  text-align: center;
+  font-size: 1.3em;
+  padding-bottom: 1em;
+}
+
+.black-p {
+  background-color: #16161d;
+  color: white;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+/*
+.skill-list {
+  background-color: #16161d;
+  color: white;
+  font-family: 'Overpass', sans-serif;
+} */
