@@ -9,7 +9,7 @@ font-family: 'Source Code Pro', monospace;
 * {
   font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
-  background-color: #eeeded;
+  background-color: white;
   margin: 0 auto;
 }
 
@@ -19,17 +19,29 @@ h1 {
 }
 
 nav {
-  min-height: 4em;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
   text-align: center;
-  background-color: #16161d;
+  padding-top: 2em;
 }
 
 a {
   text-decoration: none;
-  vertical-align: middle;
-  padding: 0 1em;
+  font-size: 1em;
+  color: #16161d;
+  border: 2px solid #16161d;
+  padding: 0.8em 1em;
 }
 
-.container {
+.section-container {
+  background-color: #001f7d;
+}
+
+.text-container {
+  background-color: #001f7d;
   max-width: 960px;
+  margin: 0 auto;
 }
