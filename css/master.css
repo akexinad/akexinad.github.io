@@ -13,9 +13,11 @@ font-family: 'Source Code Pro', monospace;
   margin: 0 auto;
 }
 
-nav {
+.nav-bar {
   background-color: #16161d;
-  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
   flex-wrap: wrap;
   text-align: center;
   padding: 3em 0;
@@ -35,7 +37,7 @@ h1 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   font-size: 4em;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 h2 {
