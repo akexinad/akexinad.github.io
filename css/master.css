@@ -18,9 +18,8 @@ font-family: 'Source Code Pro', monospace;
   position: fixed;
   top: 0;
   width: 100%;
-  flex-wrap: wrap;
   text-align: center;
-  padding: 3em 0;
+  padding: 2em 0;
 }
 
 a {
