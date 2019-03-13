@@ -44,7 +44,7 @@ h2 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   font-size: 3em;
-  margin: 1em auto 2em auto;
+  margin: 1em auto 5em auto;
 }
 
 h3 {
@@ -84,8 +84,8 @@ main {
   background-color: white;
   color: #16161d;
   font-size: 2.5em;
-  margin: 0.5em auto;
-  text-decoration: underline;
+  margin: 0.8em auto;
+  font-weight: bold;
 }
 
 .projects-title {
