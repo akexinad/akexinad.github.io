@@ -14,7 +14,7 @@ font-family: 'Source Code Pro', monospace;
 }
 
 .nav-bar {
-  background-color: #000059;
+  background-color: #175903;
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,7 +37,7 @@ h1 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   font-size: 4em;
-  margin-top: 4em;
+  margin-top: 5em;
 }
 
 h2 {
