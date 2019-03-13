@@ -73,11 +73,11 @@ main {
 
 .colour-container {
   background-color: #16161d;
-  padding: 5em;
+  padding: 5em 0.5em;
 }
 
 .white-container {
-  padding: 5em;
+  padding: 5em 0.5em;
 }
 
 .skill-title {
@@ -123,4 +123,10 @@ main {
   font-size: 1.2em;
   line-height: 1.5em;
   max-width: 960px;
+}
+
+@media (max-width: 500px) {
+  a {
+    margin: 0 0.2em;
+  }
 }
