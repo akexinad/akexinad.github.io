@@ -14,7 +14,7 @@ font-family: 'Source Code Pro', monospace;
 }
 
 .nav-bar {
-  background-color: #16161d;
+  background-color: #000059;
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,6 +52,8 @@ h3 {
   text-align: center;
   font-size: 2em;
   margin: 1em auto;
+  background-color: #16161d;
+  color: white;
 }
 
 main {
@@ -66,34 +68,43 @@ main {
 .main-link {
  font-family: 'Overpass', sans-serif;
  color: blue;
+ border-style: none;
 }
 
 .colour-container {
   background-color: #16161d;
-  padding: 1em 30%;
+  padding: 5em;
+}
 
+.white-container {
+  padding: 5em;
 }
 
 .skill-title {
-  background-color: #16161d;
-  color: white;
+  background-color: white;
+  color: #16161d;
+  font-size: 2.5em;
+  margin: 0.5em auto;
+  text-decoration: underline;
+}
+
+.projects-title {
+  font-size: 2.5em;
+  margin: 0.5em auto;
+}
+
+.stack-title {
+  text-align: center;
+  font-size: 1.3em;
+  padding-bottom: 1em;
 }
 
 .text-box {
-  background-color: #16161d;
   max-width: 960px;
-  color: white;
   font-family: 'Overpass', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
   padding: 1em 0;
-}
-
-.stack-title {
-  background-color: #16161d;
-  text-align: center;
-  font-size: 1.3em;
-  padding-bottom: 1em;
 }
 
 .black-p {
@@ -101,11 +112,15 @@ main {
   color: white;
   text-align: center;
   font-family: 'Overpass', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  max-width: 960px;
 }
 
-/*
-.skill-list {
-  background-color: #16161d;
-  color: white;
+.white-p {
+  text-align: center;
   font-family: 'Overpass', sans-serif;
-} */
+  font-size: 1.2em;
+  line-height: 1.5em;
+  max-width: 960px;
+}
