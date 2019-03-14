@@ -14,7 +14,8 @@ font-family: 'Source Code Pro', monospace;
 }
 
 body {
-  opacity: 0;
+  background-image: url('circuit.jpeg');
+  opacity: 1;
 }
 
 .fade-in {
@@ -79,18 +80,18 @@ h3 {
   text-align: center;
   font-size: 2em;
   margin: 1em auto;
-  background-color: #47982b;
+  background-color: #366b24;
   color: white;
 }
 
 .spiel-container {
-  background-color: #47982b;
+  background-color: #366b24;
   padding: 5em 0.5em;
   text-align: center;
 }
 
 .black-p {
-  background-color: #47982b;
+  background-color: #366b24;
   color: white;
   text-align: center;
   font-family: 'Overpass', sans-serif;
