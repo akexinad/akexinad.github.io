@@ -13,10 +13,19 @@ font-family: 'Source Code Pro', monospace;
   margin: 0 auto;
 }
 
+body {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: 1.5s;
+}
+
 /* NAVIGATION /////////////////////////////////////// */
 
 .nav-bar {
-  background-color: white;
+  background-color: #c3c3c3;
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,6 +46,7 @@ a {
 a.nav-links:hover {
   color: #d40000;
   border: 2px solid #d40000;
+  transition: 0.5s;
 }
 
 /* MAIN SECTION ///////////////////////////////////// */
@@ -171,6 +181,7 @@ img {
 
 .fab.fa-github:hover {
   color: #d40000;
+  transition: 1s;
 }
 
 .fas.fa-link {
@@ -180,6 +191,7 @@ img {
 
 .fas.fa-link:hover {
   color: #d40000;
+  transition: 1s;
 }
 
 /* MEDIA QUERIES //////////////////////////////////////// */
@@ -188,4 +200,8 @@ img {
   a {
     margin: 0 0.2em;
   }
+}
+
+.hidden {
+  opacity: 0;
 }

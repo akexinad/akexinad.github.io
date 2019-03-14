@@ -1,7 +1,7 @@
 $(document).ready(function () {
+  console.log("hello");
 
-  console.log("hello world");
-
+  $('body').addClass('fade-in')
 
 
 })
