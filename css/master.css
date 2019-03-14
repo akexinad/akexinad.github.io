@@ -14,8 +14,7 @@ font-family: 'Source Code Pro', monospace;
 }
 
 body {
-  background-image: url('circuit.jpeg');
-  opacity: 1;
+  opacity: 0;
 }
 
 .fade-in {
@@ -159,7 +158,7 @@ h3 {
 
 .project-title {
   font-family: 'Source Code Pro', monospace;
-  
+
   background-color: #16161d;
   color: white;
   text-align: center;
