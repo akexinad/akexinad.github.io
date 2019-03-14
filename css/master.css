@@ -54,14 +54,14 @@ h1 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   font-size: 4em;
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   font-size: 3em;
-  margin: 1em auto 5em auto;
+  margin: 1em auto 3em auto;
 }
 
 h3 {
@@ -180,7 +180,7 @@ main {
 
 .fab.fa-github:hover {
   color: #d40000;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .fas.fa-link {
@@ -190,7 +190,7 @@ main {
 
 .fas.fa-link:hover {
   color: #d40000;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 /* MEDIA QUERIES //////////////////////////////////////// */
