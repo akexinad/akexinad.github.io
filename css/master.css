@@ -43,10 +43,9 @@ a {
 
 a.nav-links:hover {
   color: #d40000;
-  /* border: 2px solid #d40000; */
+  font-weight: bold;
   font-size: 1.2em;
-  text-decoration: overline;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 /* MAIN SECTION ///////////////////////////////////// */
