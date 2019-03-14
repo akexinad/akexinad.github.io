@@ -170,6 +170,7 @@ main {
 .project-link {
   display: inline-block;
   color: white;
+  margin: 1em 2em;
 }
 
 .fab.fa-github {
