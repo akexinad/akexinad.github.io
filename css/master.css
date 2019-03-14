@@ -63,15 +63,6 @@ h2 {
   margin: 1em auto 3em auto;
 }
 
-h3 {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  font-size: 2em;
-  margin: 1em auto;
-  background-color: #16161d;
-  color: white;
-}
-
 main {
   font-family: 'Overpass', sans-serif;
   font-size: 1.3em;
@@ -83,14 +74,23 @@ main {
 
 /* SPIEL SECTION //////////////////////////////////////// */
 
-.colour-container {
-  background-color: #16161d;
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin: 1em auto;
+  background-color: #47982b;
+  color: white;
+}
+
+.spiel-container {
+  background-color: #47982b;
   padding: 5em 0.5em;
   text-align: center;
 }
 
 .black-p {
-  background-color: #16161d;
+  background-color: #47982b;
   color: white;
   text-align: center;
   font-family: 'Overpass', sans-serif;
@@ -137,6 +137,12 @@ main {
 
 /* PROJECTS SECTION /////////////////////////////////////// */
 
+.projects-container {
+  background-color: #16161d;
+  padding: 5em 0.5em;
+  text-align: center;
+}
+
 .project-container {
   background-color: #16161d;
   display: inline-block;
@@ -144,6 +150,7 @@ main {
 }
 
 .project-section-title {
+  background-color: #16161d;
   font-size: 2.5em;
   margin: 0.5em auto 1em auto;
 }
