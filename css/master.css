@@ -116,7 +116,7 @@ main {
 .stack-title {
   text-align: center;
   font-size: 1.3em;
-  padding-bottom: 1em;
+  padding: 2em 0 1em 0;
 }
 
 .text-box {
