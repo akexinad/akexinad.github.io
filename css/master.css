@@ -78,19 +78,19 @@ h3 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   font-size: 2em;
-  margin: 1em auto;
-  background-color: #366b24;
+  margin: 0.5em auto 1em auto;
+  background-color: #005490;
   color: white;
 }
 
 .spiel-container {
-  background-color: #366b24;
+  background-color: #005490;
   padding: 5em 0.5em;
   text-align: center;
 }
 
 .black-p {
-  background-color: #366b24;
+  background-color: #005490;
   color: white;
   text-align: center;
   font-family: 'Overpass', sans-serif;
