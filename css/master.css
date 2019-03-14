@@ -30,7 +30,7 @@ body {
   top: 0;
   width: 100%;
   text-align: center;
-  padding: 2em 0;
+  padding: 2em;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
   text-decoration: none;
   font-size: 1em;
   color: #16161d;
-  padding: 0.5em 0.5em;
+  padding: 0.5em;
 }
 
 a.nav-links:hover {
@@ -199,6 +199,7 @@ main {
   .nav-bar {
     padding: 1em;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: flex-start;
   }
 }
