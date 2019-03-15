@@ -17,8 +17,24 @@ $(document).ready(function () {
 
   $('#skills').click(function () {
     $('html, body').animate({
-      scrollTop: $(".white-container").offset().top
+      scrollTop: $("#js-skills").offset().top
     }, 'slow');
   })
+
+  $('#contact').click(function () {
+    $('html,body').animate({
+      scrollTop: $("#js-contact").offset().top
+    }, 'slow');
+  })
+
+  // const $name = $('#name')[0].innerHTML.split('');
+  // const $title = $('#title')[0].innerHTML.split('');
+  //
+  // console.log($name);
+  // console.log($title);
+  //
+  // for (let i = 0; i < $name.length; i++) {
+  //   console.log($name[i]);
+  // }
 
 });
