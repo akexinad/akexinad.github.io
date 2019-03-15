@@ -29,7 +29,6 @@ body {
 
 .nav-bar {
   z-index: 100;
-  /* background-color: #676767; */
   background-color: white;
   letter-spacing: 1px;
   position: fixed;
@@ -43,7 +42,6 @@ a {
   font-family: 'Overpass', sans-serif;
   text-decoration: none;
   font-size: 1.3em;
-  /* color: white; */
   color: black;
   padding: 0.5em;
 }
@@ -114,23 +112,18 @@ h3 {
   text-align: center;
   font-size: 2em;
   margin: 0.5em auto 1em auto;
-  /* background-color: #005490; */
   background-color: white;
-  /* color: white; */
   color: #16161d;
 }
 
 .spiel-container {
-  /* background-color: #005490; */
   background-color: white;
   padding: 5em 1em;
   text-align: center;
 }
 
 .black-p {
-  /* background-color: #005490; */
   background-color: white;
-  /* color: white; */
   color: black;
   text-align: center;
   font-family: 'Overpass', sans-serif;
@@ -200,7 +193,6 @@ h3 {
   background-color: #16161d;
   display: inline-block;
   margin: 2em;
-  /* position: relative; */
 }
 
 .image-container {
