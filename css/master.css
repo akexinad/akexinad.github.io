@@ -25,7 +25,9 @@ body {
 /* NAVIGATION /////////////////////////////////////// */
 
 .nav-bar {
-  background-color: #c3c3c3;
+  z-index: 100;
+  background-color: #676767;
+  letter-spacing: 1px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,7 +39,7 @@ a {
   font-family: 'Overpass', sans-serif;
   text-decoration: none;
   font-size: 1em;
-  color: #16161d;
+  color: white;
   padding: 0.5em;
 }
 
@@ -77,6 +79,7 @@ main {
 
 h3 {
   font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
   text-align: center;
   font-size: 2em;
   margin: 0.5em auto 1em auto;
@@ -149,6 +152,41 @@ h3 {
   background-color: #16161d;
   display: inline-block;
   margin: 2em;
+  /* position: relative; */
+}
+
+.image-container {
+  background-color: #16161d;
+  position: relative;
+  max-height: 15em;
+  border-top-left-radius: 4em;
+  border-bottom-right-radius: 4em;
+}
+
+.overlay {
+  position: absolute;
+  border-top-left-radius: 4em;
+  border-bottom-right-radius: 4em;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.site-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5em;
+}
+
+.overlay:hover {
+  transition: .1s;
+  background-color: #16161d;
+  opacity: 0.8;
 }
 
 .project-section-title {
@@ -159,7 +197,6 @@ h3 {
 
 .project-title {
   font-family: 'Source Code Pro', monospace;
-
   background-color: #16161d;
   color: white;
   text-align: center;
@@ -168,40 +205,32 @@ h3 {
 }
 
 .project-image {
-  max-height: 18em;
+  max-height: 15em;
   border-top-left-radius: 4em;
   border-bottom-right-radius: 4em;
 }
 
-.project-links {
-  background-color: #16161d;
-  display: block;
-}
-
-.project-link {
-  display: inline-block;
-  color: white;
-  margin: 1em 2em;
-}
-
 .fab.fa-github {
+  margin-top: 0.5em;
   background-color: #16161d;
   color: white;
 }
 
 .fab.fa-github:hover {
   color: #d40000;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .fas.fa-link {
   background-color: #16161d;
-  color: white;
+  opacity: 1;
+  color: white: ;
 }
 
 .fas.fa-link:hover {
+  background-color: #16161d;
   color: #d40000;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /* MEDIA QUERIES //////////////////////////////////////// */
