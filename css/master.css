@@ -29,25 +29,26 @@ body {
 
 .nav-bar {
   z-index: 100;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #d5d1d1;
   letter-spacing: 1px;
   position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
-  padding: 1.5em;
+  padding: 1.2em;
 }
 
 a {
   font-family: 'Overpass', sans-serif;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1em;
   color: black;
   padding: 0.5em;
 }
 
 a.nav-links:hover {
-  color: #1d297a;
+  color: #1c00ff;
   font-weight: bold;
   font-size: 1.5em;
   transition: 0.2s;
