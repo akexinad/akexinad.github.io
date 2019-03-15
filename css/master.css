@@ -15,7 +15,7 @@ font-family: 'Source Code Pro', monospace;
 
 body {
   opacity: 0;
-  background-image: url('../images/alangeundsohne0201.png');
+  background-image: url('../images/alangeundsohne0201.JPEG XR');
   background-position: top;
   background-size: auto;
 }
@@ -136,7 +136,7 @@ h3 {
 /* SKILLS SECTION /////////////////////////////////////////// */
 
 .skills-container {
-  background-image: url('../images/arduino01.jpg');
+  background-image: url('../images/arduino01.JPEG XR');
   background-position: center;
   padding: 5em 1em;
 }
