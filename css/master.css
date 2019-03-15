@@ -22,7 +22,7 @@ body {
 
 .fade-in {
   opacity: 1;
-  transition: 1.5s;
+  transition: 2s;
 }
 
 /* NAVIGATION /////////////////////////////////////// */
@@ -91,6 +91,10 @@ h2 {
   font-size: 4em;
   line-height: 1.5em;
   margin: 1em auto 3em auto;
+}
+
+span {
+  background-color: rgba(233, 244, 12, 0);
 }
 
 main {
@@ -266,6 +270,7 @@ h3 {
   background-color: white;
   padding: 5em 1em;
   text-align: center;
+  min-height: 100vh;
 }
 
 .contact-section-title {
@@ -274,10 +279,20 @@ h3 {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 2em;
-  margin: 0.5em auto 1em auto;
+  font-size: 3em;
+  margin: 0.5em auto 2em auto;
 }
 
+.contact-link {
+  background-color: white;
+  margin: 3em;
+}
+
+.contact-link:hover {
+  /* color: #d40000; */
+  color: blue;
+  transition: 0.3s;
+}
 
 /* MEDIA QUERIES //////////////////////////////////////// */
 
@@ -291,5 +306,9 @@ h3 {
 
   a {
     padding: 0.3em;
+  }
+
+  .title {
+    display: block;
   }
 }
