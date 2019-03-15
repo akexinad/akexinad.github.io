@@ -136,25 +136,30 @@ h3 {
 
 /* SKILLS SECTION /////////////////////////////////////////// */
 
-.white-container {
+.skills-container {
+  background-image: url('../public/arduino01.jpg');
+  background-position: center;
   padding: 5em 1em;
 }
 
 .skill-title {
-  background-color: white;
-  color: #16161d;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
   font-size: 2.5em;
   margin: 0.8em auto;
   font-weight: bold;
 }
 
 .stack-title {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
   text-align: center;
   font-size: 1.3em;
   padding: 2em 0 1em 0;
 }
 
 .text-box {
+  background-color: rgba(251, 251, 251, 0);
   max-width: 960px;
   font-family: 'Overpass', sans-serif;
   font-size: 1.3em;
@@ -163,6 +168,8 @@ h3 {
 }
 
 .white-p {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
   font-family: 'Source Code Pro', monospace;
   text-align: center;
   font-family: 'Overpass', sans-serif;
