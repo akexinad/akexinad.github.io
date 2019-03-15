@@ -320,7 +320,7 @@ h3 {
     justify-content: flex-start;
   }
 
-  a {
+  .nav-links {
     font-size: 1.2em;
     padding: 0;
   }
