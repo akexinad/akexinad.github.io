@@ -86,7 +86,7 @@ h3 {
 
 .spiel-container {
   background-color: #005490;
-  padding: 5em 0.5em;
+  padding: 5em 1em;
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ h3 {
   text-align: center;
   font-family: 'Overpass', sans-serif;
   font-size: 1.2em;
-  line-height: 1.5em;
+  line-height: 2em;
   max-width: 960px;
 }
 
