@@ -114,19 +114,24 @@ h3 {
   text-align: center;
   font-size: 2em;
   margin: 0.5em auto 1em auto;
-  background-color: #005490;
-  color: white;
+  /* background-color: #005490; */
+  background-color: white;
+  /* color: white; */
+  color: #16161d;
 }
 
 .spiel-container {
-  background-color: #005490;
+  /* background-color: #005490; */
+  background-color: white;
   padding: 5em 1em;
   text-align: center;
 }
 
 .black-p {
-  background-color: #005490;
-  color: white;
+  /* background-color: #005490; */
+  background-color: white;
+  /* color: white; */
+  color: black;
   text-align: center;
   font-family: 'Overpass', sans-serif;
   font-size: 1.3em;
@@ -184,6 +189,10 @@ h3 {
   background-color: #16161d;
   padding: 5em 1em;
   text-align: center;
+}
+
+.project-section-title {
+  color: white;
 }
 
 .project-container {
