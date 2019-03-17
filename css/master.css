@@ -22,7 +22,7 @@ body {
 
 .fade-in {
   opacity: 1;
-  transition: 3s;
+  transition: 1.5s;
 }
 
 /* NAVIGATION /////////////////////////////////////// */
@@ -219,8 +219,8 @@ h3 {
 
 .site-link {
   display: inline-block;
-  vertical-align: middle;
-  margin-top: 5.5em;
+  margin-top: 4em;
+  /* vertical-align: middle; */
 }
 
 .overlay:hover {
@@ -250,13 +250,24 @@ h3 {
   border-bottom-right-radius: 4em;
 }
 
-.fab.fa-github {
+.fa-github {
+  margin-top: 0.5em;
+  background-color: #16161d;
+  color: white;
+}
+
+.fa-code-branch {
   margin-top: 0.5em;
   background-color: #16161d;
   color: white;
 }
 
 .fab.fa-github:hover {
+  color: #d40000;
+  transition: 0.3s;
+}
+
+.fa-code-branch:hover {
   color: #d40000;
   transition: 0.3s;
 }
