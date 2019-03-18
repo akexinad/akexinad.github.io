@@ -320,10 +320,6 @@ h3 {
 
 /* MEDIA QUERIES //////////////////////////////////////// */
 
-@media (max-width: 1000px) {
-
-}
-
 @media (max-width: 500px) {
   .nav-bar {
     padding: 1em 0.5em;
@@ -352,10 +348,6 @@ h3 {
 
   .projects-container {
     margin: 0 auto;
-  }
-
-  .project-image {
-    max-width: 80%;
   }
 
   .description {
