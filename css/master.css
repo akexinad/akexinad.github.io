@@ -15,16 +15,16 @@ font-family: 'Source Code Pro', monospace;
 
 body {
   opacity: 0;
-  opacity: 1;
+  /* opacity: 1; */
   background-image: url('../images/alangeundsohne0201.png');
   background-position: top;
   background-size: auto;
 }
 
-/* .fade-in {
+.fade-in {
   opacity: 1;
   transition: 1.5s;
-} */
+}
 
 /* NAVIGATION /////////////////////////////////////// */
 
