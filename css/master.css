@@ -63,8 +63,8 @@ a.nav-links:hover {
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-    typing 2s steps(40, end),
-    blink-caret 1s;
+    typing 3s steps(40, end),
+    blink-caret 2s;
 }
 
 /* The typing effect */
