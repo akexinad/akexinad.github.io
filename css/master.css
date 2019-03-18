@@ -284,8 +284,7 @@ h3 {
   font-family: 'Overpass', sans-serif;
   background-color: #16161d;
   color: white;
-  padding: 0 2em;
-  margin: 0.5em 10em;
+  max-width: 960px;
   font-size: 1.3em;
   line-height: 1.4em;
 }
@@ -321,6 +320,10 @@ h3 {
 
 /* MEDIA QUERIES //////////////////////////////////////// */
 
+@media (max-width: 1000px) {
+
+}
+
 @media (max-width: 500px) {
   .nav-bar {
     padding: 1em 0.5em;
@@ -342,7 +345,26 @@ h3 {
     display: block;
   }
 
+  .project-container {
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .projects-container {
+    margin: 0 auto;
+  }
+
+  .project-image {
+    max-width: 80%;
+  }
+
+  .description {
+    margin: 1em auto;
+    padding: 0;
+  }
+
   .contact-link {
     display: block;
   }
+
 }
