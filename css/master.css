@@ -15,15 +15,16 @@ font-family: 'Source Code Pro', monospace;
 
 body {
   opacity: 0;
+  opacity: 1;
   background-image: url('../images/alangeundsohne0201.png');
   background-position: top;
   background-size: auto;
 }
 
-.fade-in {
+/* .fade-in {
   opacity: 1;
   transition: 1.5s;
-}
+} */
 
 /* NAVIGATION /////////////////////////////////////// */
 
@@ -186,19 +187,37 @@ h3 {
 
 .project-section-title {
   color: white;
-  padding-bottom: 1em;
+  background-color: #16161d;
+  font-size: 2.5em;
+  margin: 0.5em auto 1em auto;
 }
 
 .project-container {
   background-color: #16161d;
-  display: inline-block;
+  display: block;
   margin: 2em;
+}
+
+.project-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #16161d;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
 }
 
 .image-container {
   background-color: #16161d;
   position: relative;
-  max-height: 15em;
+  /* max-width: 15em; */
+  border-top-left-radius: 4em;
+  border-bottom-right-radius: 4em;
+}
+
+.project-image {
+  max-width: 15em;
   border-top-left-radius: 4em;
   border-bottom-right-radius: 4em;
 }
@@ -211,42 +230,20 @@ h3 {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  max-width: 15em;
   opacity: 0;
   transition: .5s ease;
 }
 
 .site-link {
   display: inline-block;
-  margin-top: 4em;
+  margin-top: 4.25em;
 }
 
 .overlay:hover {
   transition: .1s;
   background-color: #16161d;
   opacity: 0.8;
-}
-
-.project-section-title {
-  background-color: #16161d;
-  font-size: 2.5em;
-  margin: 0.5em auto 1em auto;
-}
-
-.project-title {
-  font-family: 'Source Code Pro', monospace;
-  background-color: #16161d;
-  color: white;
-  text-align: center;
-  font-size: 2em;
-  padding-bottom: 1em;
-}
-
-.project-image {
-  max-height: 15em;
-  border-top-left-radius: 4em;
-  border-bottom-right-radius: 4em;
 }
 
 .fa-github {
@@ -256,7 +253,7 @@ h3 {
 }
 
 .fa-code-branch {
-  margin-top: 0.5em;
+  margin: 0.5em 0;
   background-color: #16161d;
   color: white;
 }
@@ -281,6 +278,16 @@ h3 {
   background-color: #16161d;
   color: #d40000;
   transition: 0.3s;
+}
+
+.description {
+  font-family: 'Overpass', sans-serif;
+  background-color: #16161d;
+  color: white;
+  padding: 0 2em;
+  margin: 0.5em 10em;
+  font-size: 1.3em;
+  line-height: 1.4em;
 }
 
 /* CONTACT SECTION //////////////////////////////////////// */
