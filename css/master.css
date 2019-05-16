@@ -74,8 +74,8 @@ a.nav-links:hover {
 }
 
 h1 {
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: rgba(45, 38, 163, 0);
+  font-family: 'Roboto Condensed';
+  background-color: transparent;
   color: white;
   text-align: center;
   font-size: 6em;
@@ -84,7 +84,7 @@ h1 {
 
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: rgba(154, 119, 238, 0);
+  background-color: transparent;
   color: white;
   text-align: center;
   font-size: 4em;
@@ -93,7 +93,7 @@ h2 {
 }
 
 span {
-  background-color: rgba(233, 244, 12, 0);
+  background-color: transparent;
 }
 
 main {
@@ -334,7 +334,11 @@ h3 {
   }
 
   h1 {
-    font-size: 5.5em;
+    font-size: 5em;
+  }
+
+  h2 {
+      font-size: 3em;
   }
 
   .title {
